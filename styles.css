@@ -1,0 +1,148 @@
+@media(min-width: 768px) {
+    .navbar-toggle {
+        display: none;
+    }
+}
+body {
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    color: #222;
+}
+#header-nav {
+    background-color:#BDC3C7;
+    border-radius: 0;
+    border: 0;
+    padding: .8rem;
+}
+.navbar-nav li {
+    padding-right: 20px;
+}
+.nav-link {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 10%;
+}
+.padding {
+    padding-bottom: 2.5rem;
+}
+.welcome {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+.welcome hr {
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+.social a {
+    font-size: 4.5em;
+    padding: 5rem;
+}
+.fa-facebook {
+    color: #3b5998;
+}
+.fa-instagram {
+    color: #517fa4;
+}
+.fa-facebook:hover, .fa-instagram:hover {
+    color: #d5d5d5;
+}
+footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+.lead {
+    text-align: center;
+}
+.navbar-header {
+    padding: 15px;
+}
+.navbar-header h1 {
+    color:#2874A6 ;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px lightblue;
+}
+.navbar-header a:hover, .navbar-header a:focus {
+    text-decoration: none;
+}
+#p1, #p2, #p3, #p4, #p5 {
+    color: #2874A6;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+}
+.navbar-toggle .icon-bar + .icon-bar {
+    margin-top: 4px;
+}
+#nav-list a {
+    color: #2874A6 ;
+    text-align: center;
+    font-size: 1.5em;
+} 
+#nav-list a:hover {
+    background:#AED6F1;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #2874A6;
+}
+button .navbar-toggle .icon-bar {
+    float: right;
+}
+.info {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+#myself {
+    border-image: url(images/img 1.jpeg) 30% round;
+}
+h3 {
+    font-weight: bold;
+    color:#2874A6;
+}
+@media(max-width: 992px) {
+    social a {
+        font-size: 4em;
+        padding: 2em;
+    }
+}
+@media(max-width: 768px) {
+    .display-4 {
+        font-size: 200%;
+    }
+    h3 {
+        font-size: 200%;
+    }
+    social a {
+        font-size: 2.5em;
+        padding: 1.2em;
+    }
+}
+@media(max-width: 576px) {
+    social a {
+        font-size: 2em;
+        padding: 0.7em;
+    }
+}
+.carousel-item {
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+}
